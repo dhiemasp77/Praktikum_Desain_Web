@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 12, 2018, 6:39:29 PM
+    Author     : asus
+*/body {
+.background: blue;
+	width: 900px;
+	margin: 10px auto;
+}
+ 
+/*bagian header*/
+.wrap .header{
+	background: yellow;
+	/*height: 50px;*/
+	padding: 2px 10px;
+}
+ 
+/*akhir header*/
+ 
+/*bagian menu*/
+.wrap .menu{
+	background: yellow;
+}
+ 
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: red;
+	overflow: hidden;
+}
+ 
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+/*akhir menu*/
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 450px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background: violet;
+	float: left;	
+	width: 25%;
+	height: 100%;
+}
+ 
+/*akhir sidebar*/
+ 
+.wrap .badan .content{
+	background: purple;
+	float: left;
+	height: 100%;
+	width: 75%;	
+}
+ 
+.wrap .footer{
+	width: 100%;
+	padding: 10px;
+}
